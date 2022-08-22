@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Canvas Drawing Program</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="Description" lang="en" content="An online pizza ordering program.">
+		<meta name="author" content="Author is Maya Catley">
+		<meta name="robots" content="index, follow">
+
+		<!-- icons -->
+		<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+		<link rel="shortcut icon" href="favicon.ico">
+<link rel="stylesheet" href="assets/highlight/styles/tomorrow.css">
+<script src="assets/highlight/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+       
+
+		<!-- Override CSS file - add your own CSS rules -->
+		<link rel="stylesheet" href="assets/css/styles.css">
+
+	</head>
+	<body>
+		<div class="container">
+			<div class="header">
+				<h1 class="header-heading">Mayas Canvas</h1>
+			</div>
+			<div class="nav-bar">
+				<ul class="nav">
+					<li><a href="#Sprint1">Sprint One</a></li>
+					<li><a href="#Sprint2">Sprint Two</a></li>
+					<li><a href="#Sprint3">Sprint Three</a></li>
+					<li><a href="#Sprint4">Sprint Four</a></li>
+					<li><a href="#Sprint5">Sprint Five</a></li>
+					<li><a href="#Sprint6">Sprint Six</a></li>
+					<li><a href="#Sprint7">Sprint Seven</a></li>
+					<li><a href="#Sprint8">Sprint Eight</a></li>
+					<li><a href="#Sprint9">Sprint Nine</a></li>
+					<li><a href="#Sprint10">Sprint Ten</a></li>
+					<li><a href="#Sprint11">Sprint Eleven</a></li>
+					<li><a href="#RelevantImplications">Relevant Implications</a></li>
+				</ul>
+			</div>
+			<div class="content">
+
+                
+
+
+    <!-- Heading levels -->
+<h2>Project Plan</h2>
+<img class="img-responsive" width="70%" src="assets/img/InternalPlan" alt="">
+<hr>
+<br>
+<h2>Initial Project Backlog</h2>
+<img class="img-responsive" width="70%" src="assets/img/ProjectBacklog.png" alt="">
+
+<hr>
+<br>
+<h1 id="Sprint1">Sprint One</h1>
+<p>The aim of this sprint is for the user to draw any size of rectangle.</p>
+<hr>
+<h4>Rough Program Plan</h4>
+<img class="img-responsive" width="70%" src="assets/img/Sprint1Drawing.png" alt="">
+<hr>
+<br>
+<h4>Sprint One Board in progress</h4>
+<img class="img-responsive" width="70%" src="assets/img/Sprint1Plan.png" alt="">
+<hr>
+<br>
+<h4>Basic Test of Program</h4>
+<video class="img-responsive" width="75%" controls>
+<source src="assets/video/Sprint1.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+<hr>
+<br>
+<h4>Pushing to Git</h4>
+<img class="img-responsive" width="70%" src="" alt="">
+<br>
+<hr>
+<h4>Error</h4>
+<video class="img-responsive" width="75%" controls>
+<source src="assets/video/Sprint1Error.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+<br>
+<p>I recognised that my canvas' boundaries didn't allow the user to touch the drawing guide with the canvas boarder, and that the user
+wasn't able to continue drawing the shape if the boarder has already been touched. Preferably I would like the shape to cut off when
+touching the boarder of the canvas, or allow the user to continue drawing a shape elsewhere in one movement. I will fix this in a
+future Sprint, as currently I would like to get more shape and colour options before fixing the smaller details.</p>
+<hr>
+<h2>Reflection</h2>
+<p>This Sprint works well and achieves what I was after. It works very simply by only allowing the user to draw a guide and rectangles.</p>
+<p>However this allows me to improve my program in future sprints, and has given me a variety of options for where I can improve
+my program. Through my testing I was able to recognise that there were lots of errors with my program as I mentioned above, such as
+the boarder of my canvas which will have to be fixed in a later sprint.</p>
+<p>I would like to work on adding buttons and another shape in Sprint 2, as that will make my program more like a drawing program,
+by giving the user more options and more artistic freedom.</p>
+<hr>
+<hr>
+
+<h1 id="Sprint2">Sprint Two</h1>
+<p>The aim of Sprint Two is to allow the user to select either the ellipse or rectangle button, and then draw the shape accordingly.</p>
+<hr>
+<h4>Rough Program Plan</h4>
+<img class="img-responsive" width="90%" src="" alt="">
+<hr>
+<br>
+<h4>Sprint Two Board in progress</h4>
+<img class="img-responsive" width="90%" src="assets/img/Sprint2Plan.png" alt="">
+<hr>
+<br>
+<h4>Basic Test of Program</h4>
+<video class="img-responsive" width="75%" controls>
+<source src="assets/video/Sprint2.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+<br>
+<hr>
+<h4>Pushing to Git</h4>
+<img class="img-responsive" width="70%" src="" alt="">
+<br>
+<hr>
+<h4>Error</h4>
+<video class="img-responsive" width="75%" controls>
+<source src="assets/video/Sprint2Error.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+<br>
+<p>I struggled with the buttons creating different shapes, I realised this is because I was calling the shapes with capital letters,
+when I initially had them defined with lower case letters. This was a hard to find error, but super simple when I recognised what
+the problem was. I also had a few unnecessary lines of code that I was able to remove, this allowed me to find the error more
+efficiently.</p>
+<br>
+<hr>
+<h2>Reflection</h2>
+<p>Sprint 2 was a big success, and I was able to get the basis for a good drawing program. Now the user is given choices and options,
+allowing for more creativity and freedom. This is crucial for a drawing program, so I prioritised including this feature over
+my other ideas on my kanban. I came across a few problems, however, the main one was actually getting the functionality to work,
+I had no trouble with the drawing guides, however it was difficult to have a button create a different shape. This was a simple fix,
+and showed me the importance of making sure I was properly calling parts of my code.</p>
+<p>In my next sprint I really want to establish a way for the user to change the colour of shapes, to do this I was to have a swatch
+of variety of colours for the user to select, however, to simplify this, I may initially make only a few colour options.</p>
+<hr>
+<hr>
+
+<h1 id="Sprint3">Sprint Three</h1>
+<p>The aim of Sprint Three is to have a colour palate that the user can use to change the colour of the shapes.</p>
+<hr>
+<h4>Rough Program Plan</h4>
+<img class="img-responsive" width="90%" src="assets/img/" alt="">
+<hr>
+<br>
+<h4>Sprint Three Board in progress</h4>
+<img class="img-responsive" width="90%" src="assets/img/Sprint3Plan.png" alt="">
+<hr>
+<br>
+<h4>Basic Test of Program</h4>
+<video class="img-responsive" width="75%" controls>
+<source src="assets/video/Sprint3.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+<br>
+<hr>
+<h4>Pushing to Git</h4>
+<img class="img-responsive" width="70%" src="" alt="">
+<br>
+<hr>
+<h4>Error</h4>
+<video class="img-responsive" width="75%" controls>
+<source src="assets/video/Sprint3Error.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+<br>
+<p>I came across an error where the first default colour was unable to be changed.</p>
+<br>
+<video class="img-responsive" width="75%" controls>
+<source src="assets/video/Sprint3ColourError.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+<br>
+<p>I recognised that my colour swatch had a hover colour and a different colour when selected, both of these colours were different to the
+initial colour</p>
+<hr>
+<h2>Reflection</h2>
+<p>...</p>
+
+<hr>
+<hr>
+
+	<h1 id="Sprint4">Sprint Four</h1>
+<p>The aim of Sprint Four was to create a drawing area inside of the canvas and have boundaries that allow the user to draw
+up to the edge of the drawing area.</p>
+<hr>
+<h4>Rough Program Plan</h4>
+<img class="img-responsive" width="90%" src="" alt="">
+<br>
+<hr>
+<h4>Sprint Four Board in progress</h4>
+<img class="img-responsive" width="90%" src="assets/img/Sprint4Plan.png" alt="">
+<hr>
+<br>
+<h4>Basic Test of Program</h4>
+<video class="img-responsive" width="75%" controls>
+	<source src="assets/video/Sprint4.mp4" type="video/mp4">
+	Your browser does not support the video tag.
+</video>
+<br>
+<hr>
+<h4>Pushing to Git</h4>
+<img class="img-responsive" width="70%" src="" alt="">
+<br>
+<hr>
+<h4>Error</h4>
+<video class="img-responsive" width="75%" controls>
+	<source src="assets/video/Sprint4Error.mp4" type="video/mp4">
+	Your browser does not support the video tag.
+</video>
+<br>
+<p>I came across an error where the left side of my canvas had working boundaries, however, the right side did not. I realised this was
+because I had the program checking for the mouse in the wrong boundaries.</p>
+<code class=""javascript+> if(xMouse > x && yMouse < x+w && yMouse > y && yMouse < y+h)</code>
+<br>
+<p>I realised that I needed to change it to</p>
+<code class=""javascript+> if(xMouse > x && xMouse < x+w && yMouse > y && yMouse < y+h)</code>
+<br>
+<p>Now the code works and so do the boundaries.</p>
+<br>
+<br>
+<hr>
+<h4>Sprint Four Testing</h4>
+<br>
+<p>I decided to create a separate testing folder for adding the drawing area, as I wanted to test the functionality without all of my additional
+buttons and shapes. This was beneficial as I had a much simpler code to use as a base, and allowed me to find and fix errors more efficiently.
+To do this I copied the code from my first sprint and added the drawing area code onto it, once it worked, I then added the new code onto
+my actual sprint.</p>
+<video class="img-responsive" width="75%" controls>
+	<source src="assets/video/Sprint4TestCode.mp4" type="video/mp4">
+	Your browser does not support the video tag.
+</video>
+<br>
+<hr>
+<h2>Sprint Review</h2>
+<hr>
+<hr>
+
+	<h1 id="Sprint5">Sprint Five</h1>
+<p>This aim of Sprint Five is to allow the user to undo or redo previous shapes they may have drawn. This will give the user more
+freedom and allow them to make mistakes and still be able to recover their drawing.</p>
+<hr>
+<h4>Rough Program Plan</h4>
+<img class="img-responsive" width="90%" src="" alt="">
+<br>
+<hr>
+<h4>Sprint Four Board in progress</h4>
+<img class="img-responsive" width="90%" src="assets/img/Sprint5Plan.png" alt="">
+<hr>
+<br>
+<h4>Basic Test of Program</h4>
+<video class="img-responsive" width="75%" controls>
+	<source src="assets/video/Sprint5.mp4" type="video/mp4">
+	Your browser does not support the video tag.
+</video>
+<br>
+<hr>
+<h4>Pushing to Git</h4>
+<img class="img-responsive" width="90%" src="" alt="">
+<br>
+<hr>
+<h2>Reflection</h2>
+<p>While my initial plan for this sprint was to create an undo and redo button, I decided to change my plan and make a clear button
+instead of a redo button. I am hoping to try and create a redo button in thr future, however, I realised this was too ambitious
+for sprint 5. A redo button would mean duplicating my shape list, so I would have to be able to go through the history on one list and have the
+other list actually representing what is on the canvas. I decided instead to make a clear button as the code was not too different to
+the undo button and because a clear option would be more helpful for users.</p>
+<p>This was another decision in which I had to decide between two options to determine what would work best for my program. Where inevitably I
+had to consider practicality from not only the users perspective but also what I could manage in Sprint 5.</p>
+<p>Sprint 5 went pretty smoothly, and I didn't face many problems. In my next sprint I am looking to add more shapes and colours to give the
+user more creative freedom.</p>
+<br>
+<hr>
+<h1 id="Sprint6">Sprint Six</h1>
+<p>The aim of Sprint Six is to give the user more shape and colour options.</p>
+<hr>
+<h4>Rough Program Plan</h4>
+<img class="img-responsive" width="90%" src="" alt="">
+<br>
+<hr>
+<h4>Sprint Six Board in progress</h4>
+<img class="img-responsive" width="90%" src="assets/img/Sprint6Plan.png" alt="">
+<hr>
+<br>
+<h4>Basic Test of Program</h4>
+<video class="img-responsive" width="75%" controls="muted">
+	<source src="assets/video/Sprint6.mp4" type="video/mp4">
+	Your browser does not support the video tag.
+</video>
+<br>
+<hr>
+<h4>Pushing to Git</h4>
+<img class="img-responsive" width="70%" src="" alt="">
+<br>
+<hr>
+<br>
+<p>I came across an error ...</p>
+<br>
+<hr>
+<h2>Reflection</h2>
+<hr>
+<br>
+<hr>
+<h1 id="Sprint7">Sprint Seven</h1>
+<p>The aim of Sprint Seven is to give the user more shape options, I also want to change the way the user selects a colour.</p>
+<hr>
+<h4>Rough Program Plan</h4>
+<img class="img-responsive" width="90%" src="" alt="">
+<br>
+<hr>
+<h4>Sprint Seven Board in progress</h4>
+<img class="img-responsive" width="90%" src="assets/img/Sprint7Plan.png" alt="">
+<hr>
+<br>
+<h4>Basic Test of Program</h4>
+<video class="img-responsive" width="75%" controls="muted">
+	<source src="assets/video/Sprint7.mp4" type="video/mp4">
+	Your browser does not support the video tag.
+</video>
+<br>
+<hr>
+<h4>Pushing to Git</h4>
+<img class="img-responsive" width="70%" src="" alt="">
+<br>
+<hr>
+<br>
+<p>I came across an error ...</p>
+<br>
+<hr>
+<h2>Reflection</h2>
+<p>I made the choice in this sprint to change the way the colours appeared, prior they went transparent when hovered over or selected,
+which could give the user the wrong idea of what colour they were picking. This is why I decided to make them not only larger but have the
+stroke change instead, so the colour remained the same. This almost meant I could add transparent colours as an option.</p>
+<p>Along with changing the appearance of the colours, I also changed the appearance of the program, I made it so the colours are on the far
+left side along with the buttons being in a line going downwards. This looks neater and also makes sense logically as we read from the left
+to the right.</p>
+<p>The picture below shows what my program looks like now vs how it looked prior.</p>
+<img class="img-responsive" width="100%" src="assets/img/ColourComparison.png" alt="">
+<br>
+<p>This sprint primarily went very smoothly, and I didn't have too many issues. </p>
+<br>
+<hr>
+<h1 id="Sprint8">Sprint Eight</h1>
+<p>The aim of Sprint Eight is to give the user more shape options.</p>
+<hr>
+<h4>Rough Program Plan</h4>
+<img class="img-responsive" width="90%" src="" alt="">
+<br>
+<hr>
+<h4>Sprint Eight Board in progress</h4>
+<img class="img-responsive" width="90%" src="assets/img/Sprint8Plan.png" alt="">
+<hr>
+<br>
+<h4>Basic Test of Program</h4>
+<video class="img-responsive" width="75%" controls="muted">
+	<source src="assets/video/Sprint8.mp4" type="video/mp4">
+	Your browser does not support the video tag.
+</video>
+<br>
+<hr>
+<h4>Pushing to Git</h4>
+<img class="img-responsive" width="70%" src="" alt="">
+<br>
+<hr>
+<br>
+<p>I came across an error ...</p>
+<br>
+<hr>
+<h2>Reflection</h2>
+<hr>
+<br>
+<hr>
+<br>
+<hr>
+<h1 id="Sprint9">Sprint Nine</h1>
+<p>The aim of Sprint Nine is to have the option for the user to redo, as well as have a pen and eraser tool.</p>
+<hr>
+<h4>Rough Program Plan</h4>
+<img class="img-responsive" width="90%" src="" alt="">
+<br>
+<hr>
+<h4>Sprint Nine Board in progress</h4>
+<img class="img-responsive" width="90%" src="assets/img/Sprint9Plan.png" alt="">
+<hr>
+<br>
+<h4>Basic Test of Program</h4>
+<video class="img-responsive" width="75%" controls="muted">
+	<source src="assets/video/Sprint9Redo.mp4" type="video/mp4">
+	Your browser does not support the video tag.
+</video>
+<br>
+<hr>
+<h4>Pushing to Git</h4>
+<img class="img-responsive" width="70%" src="" alt="">
+<br>
+<hr>
+<br>
+<p>I came across an error ...</p>
+<br>
+<hr>
+<h4>Sprint Nine Testing</h4>
+<br>
+<p>I decided to create a separate testing folder for adding the drawing area, as I wanted to test the functionality without all of my additional
+	buttons and shapes. This was beneficial as I had a much simpler code to use as a base, and allowed me to find and fix errors more efficiently.
+	To do this I copied the code from my first sprint and added the drawing area code onto it, once it worked, I then added the new code onto
+	my actual sprint.</p>
+<video class="img-responsive" width="60%" controls>
+	<source src="assets/video/PenTest.mp4" type="video/mp4">
+	Your browser does not support the video tag.
+</video>
+<br>
+<hr>
+<h2>Reflection</h2>
+<hr>
+<br>
+<hr>
+<br>
+<hr>
+<h1 id="Sprint10">Sprint Ten</h1>
+<p>The aim of Sprint Ten is to fix any errors in the previous sprint, and have a way of changing the thickness of the pen and eraser.</p>
+<hr>
+<h4>Rough Program Plan</h4>
+<img class="img-responsive" width="90%" src="" alt="">
+<br>
+<hr>
+<h4>Sprint Ten Board in progress</h4>
+<img class="img-responsive" width="90%" src="assets/img/Sprint10Plan.png" alt="">
+<hr>
+<br>
+<br>
+<hr>
+<br>
+<p>I had to make a decision about how I wanted the slider to appear on the canvas. I wanted this slider to be used for both the pen and
+eraser, so I had to think of a way the user could recognise its purpose.</p>
+<img class="img-responsive" width="70%" src="assets/img/sliderbaroptions.png" alt="">
+<p>I decided to choose the option on the right as it felt less cramped and made sense aesthetically. It did however mean that the buttons
+would be smaller than the others, although I ended up preferring them this way as it showed the different between the MouseDown shapes and
+then MouseUp drawing options.</p>
+<br>
+<hr>
+<h4>Basic Test of Program</h4>
+<video class="img-responsive" width="75%" controls="muted">
+	<source src="assets/video/Sprint10.mp4" type="video/mp4">
+	Your browser does not support the video tag.
+</video>
+<br>
+<hr>
+<h4>Pushing to Git</h4>
+<img class="img-responsive" width="70%" src="" alt="">
+<br>
+<hr>
+<br>
+<p>I came across an error ...</p>
+<br>
+<hr>
+<h2>Reflection</h2>
+<hr>
+<br>
+<hr>
+<h1 id="Sprint11">Sprint Eleven</h1>
+<p>The aim of Sprint Eleven is to fix all errors and doctype my program.</p>
+<hr>
+<h4>Rough Program Plan</h4>
+<img class="img-responsive" width="90%" src="" alt="">
+<br>
+<hr>
+<h4>Sprint Eleven Board in progress</h4>
+<img class="img-responsive" width="90%" src="assets/img/Sprint10Plan.png" alt="">
+<hr>
+<br>
+<h4>Basic Test of Program</h4>
+<video class="img-responsive" width="75%" controls="muted">
+	<source src="assets/video/Sprint11.mp4" type="video/mp4">
+	Your browser does not support the video tag.
+</video>
+<br>
+<hr>
+<h4>Pushing to Git</h4>
+<img class="img-responsive" width="70%" src="" alt="">
+<br>
+<hr>
+<br>
+<p>I came across an error ...</p>
+<video class="img-responsive" width="75%" controls="muted">
+	<source src="assets/video/Sprint11Error.mp4" type="video/mp4">
+	Your browser does not support the video tag.
+</video>
+<br>
+<hr>
+<h1 id="Sprint12">Sprint Twelve</h1>
+<p>The aim of Sprint Twelve is to fix all errors, and test the program.</p>
+<hr>
+<h4>Rough Program Plan</h4>
+<img class="img-responsive" width="90%" src="" alt="">
+<br>
+<hr>
+<h4>Sprint Ten Board in progress</h4>
+<img class="img-responsive" width="90%" src="assets/img/Sprint12Plan.png" alt="">
+<hr>
+<br>
+<hr>
+<h4>Basic Test of Program</h4>
+<video class="img-responsive" width="75%" controls="muted">
+	<source src="assets/video/Sprint12.mp4" type="video/mp4">
+	Your browser does not support the video tag.
+</video>
+<br>
+<hr>
+<h4>Pushing to Git</h4>
+<img class="img-responsive" width="70%" src="" alt="">
+<br>
+<hr>
+<br>
+<p>I came across an error ...</p>
+<br>
+<hr>
+<h2>Reflection</h2>
+<hr>
+<br>
+<hr>
+<h2>Reflection</h2>
+<img class="img-responsive" width="70%" src="assets/img/StaryNight.png" alt="">
+<p>I decided to put my program to the test and try to recreate Stary Night, and I think it turned out pretty sucsessful !!</p>
+<hr>
+<br>
+<hr>
+<h2>What my Project Backlog looks like now</h2>
+<img class="img-responsive" width="90%" src="assets/img/UpdatedProjectBacklog.png" alt="">
+<br>
+<hr>
+<h1 id="RelevantImplications"> Relevant Implications Summary</h1>
+<hr>
+
+<hr>
+			</div>
+			<div class="footer">
+				&copy; Maya S Catley Copyright 2021
+			</div>
+		</div>
+	</body>
+</html>
